@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto';
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 0.75rem 0;
+}
+
+#nav-bar {
+    background: #333;
+    display: flex;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    color: white;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+#nav-bar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+
+}
+
+#nav-bar ul li a {
+    color: #fff;
+    padding: 0.75rem;
+    margin: 0 0.25rem;
+}
+
+#nav-bar ul li a:hover {
+    background: #93cb52;
+    border-radius: 5px;
+}
+
+/* Utility */
+.text-primary {
+    color: #93cb52;
+}
+
+.bg-dark {
+    background: #333;
+    color: #fff;
+}
+
+.p-2 {
+    padding: 0 2rem;
+}
+
+.p-1 {
+    padding: 1.5rem 0;
+}
+
+.p-3 {
+    padding: 3rem 0;
+}
+
+/* Show Case */
+#showcase {
+    background: #333 url('../image_resources/showcase.jpg') no-repeat center center/cover;
+    color: white;
+    height: 100vh;
+
+}
+
+#showcase .showcase-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100%;
+    padding: 0 2rem;
+
+    /* Overlay */
+    position: absolute;
+    width: 100%;
+    top: 65;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.l-heading {
+    font-size: 3.5rem;
+    line-height: 3.4rem;
+    padding: 1.3rem;
+}
+
+.lead {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #93cb52;
+    color: #fff;
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+}
+
+/* What we do */
+
+.bg-light {
+    background: #F4F4F4;
+
+}
+
+.container {
+
+    max-width: 1100px;
+    overflow: hidden;
+    margin: auto;
+    padding: 1rem 1.7rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.m-heading {
+    padding: 1rem;
+}
+
+#what .items {
+    display: flex;
+    /* justify-content: center; */
+}
+
+#what .items .item {
+    flex: 1;
+    padding: 1rem;
+    text-align: center;
+}
+
+#what .items .item i {
+    background-color: #93cb52;
+    border-radius: 50%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+
+} 
+
+
+/* Who we r */
+
+#who {
+    display: flex;
+}
+
+#who div {
+    flex: 1;
+}
+
+#who .who-img {
+    background: url('../image_resources/people.jpg') no-repeat center center/cover;
+
+}
+
+.list {
+    list-style: none;
+    margin: 0.5rem 0;
+}
+
+#clients .container .items {
+    display: flex;
+
+}
+
+#clients .container .items img {
+    margin: auto;
+    display: block;
+    width: 60%;
+}
+
+.bg-primary {
+    background: #93cb52;
+    color: #fff;
+}
+
+.form-group label {
+    display: block;
+    padding: 0.2rem;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group .btn {
+    width: 100%;
+}
+
+
+#contact {
+    display: flex;
+}
+
+#contact .map,
+#contact .contact-form {
+    flex: 1;
+}
+
+#contact .contact-form {
+    margin: 0.75rem;
+}
